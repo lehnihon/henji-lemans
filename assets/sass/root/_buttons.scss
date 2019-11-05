@@ -1,0 +1,9 @@
+.btn-base{
+  border-radius:3px;
+  padding:10px 15px;
+  display:inline-block;
+  font-size:14px;
+  font-weight:bold;
+  font-family: 'Muli', sans-serif;
+  @include transition(all 0.5s ease-in-out);
+}

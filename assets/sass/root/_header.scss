@@ -1,0 +1,60 @@
+#header{
+  background-color:#01458e;
+  .menu-topo{
+    background-color:#FFF;
+    text-align: right;
+    color:#8d211b;
+    font-size:1.125rem;
+    a{
+      color:#FFF;
+      padding:0 0.375rem;
+      font-size:1.125rem;
+    }
+    a:hover{
+      color:#01458e;
+    }
+  }
+  .menu-principal{
+      .nav-link{
+        color:#FFF;
+      }
+      a:hover{
+        color:#ffd200;
+      }
+      a.active{
+        color:#ffd200;
+      }
+  }
+  .menu-alugue{
+    background-color:#8d211b;
+    color:#FFF;
+    h3{
+      color:#FFF;
+      font-weight: 400;
+    }
+    input{
+      color:#555555;
+    }
+    a{
+      color:#FFF;
+    }
+    .buscar-reserva{
+      background-color:#01458e;
+      color:#FFF;
+      border:1px solid #01458e;
+      display: inline-block;
+      padding:8px 20px;
+    }
+    .buscar-reserva:hover{
+      background-color:#FFF;
+      color:#01458e;
+    }
+    .local-dev{
+      display:none;
+    }
+    .local-dev-msg{
+      color:#01458e;
+      margin-top:0.5rem;
+    }
+  }
+}

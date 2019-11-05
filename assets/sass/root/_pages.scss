@@ -1,0 +1,167 @@
+#page{
+    .titulo-topo{
+        background-color:#7d1a1e;
+        h1{
+            color:#FFF;
+            font-size:1.75rem;
+        }
+        h5{
+            color:#FFF;
+        }
+    }
+    .breadcrumb{
+        background-color:transparent;
+        a{
+            color:#6f1115;
+        }
+    }
+    .page-espaco{
+        padding:3rem 0;
+    }
+    img{
+        max-width:100%;
+    }
+    .btn-selecionar{
+        background-color:#ffd200;
+        color:#7d1a1e;
+        border:1px solid #ffd200;
+        display: inline-block;
+        padding:8px 20px;
+    }
+    .btn-selecionar:hover{
+        background-color:#7d1a1e;
+        color:#ffd200;
+    }
+
+    .redes{
+        color:#6f1115;
+        font-size:1.25rem;
+        font-weight: bold;
+        span{
+            vertical-align: text-bottom;
+            letter-spacing: 1.5px;
+        }
+
+        a{
+            font-size:1.5rem;
+            color:#6f1115;
+            padding:0 0.5rem;
+        }
+        a:hover{
+            color:#ffd200;
+        }
+    }
+
+    .page-reserva{
+        .reserva-box{
+            border:3px solid #6f1115;
+        }
+        .veiculos-top, .reserva-top{
+            background-color:#6f1115;
+            color:#FFF;
+            font-weight: bold;
+            font-size:1.125rem;
+            padding: 0.5rem 1rem;
+            margin-bottom:0.5rem;
+            .voltar{
+                float:right;
+                color:#FFF;
+                font-size:1rem;
+            }
+            .voltar:hover{
+                color:#ffd200;
+            }
+        }
+        .veiculos-hide{
+            display:none;
+        }
+        .veiculos-box{
+            border:1px solid #eaebed;
+        }
+        .veiculos-grupo{
+            background-color:#eaebed;
+            padding: 0.5rem 1rem;
+            margin-bottom:0.5rem;
+        }
+        .veiculos-grupo:hover{
+            cursor:pointer;
+        }
+        .extras-grupo{
+            background-color:#6f1115;
+            color:#FFF;
+            padding: 0.5rem 1rem;
+        }
+        .extras-detalhes{
+            border:1px solid #eaebed;
+        }
+        .reserva-concluida{
+            border:1px solid #eaebed;
+        }
+        .extra-reserva{
+            height: 500px;
+            overflow-y: scroll;
+        }
+        .btn-veiculo{
+            background-color:#ffd200;
+            color:#7d1a1e;
+            border:1px solid #ffd200;
+            display: inline-block;
+            padding:2.5px 10px;
+            font-size:0.875rem;
+        }
+        .btn-veiculo:hover{
+            background-color:#7d1a1e;
+            color:#ffd200;
+        }
+        .btn-reserva{
+            background-color:#ffd200;
+            color:#7d1a1e;
+            border:1px solid #ffd200;
+            display: inline-block;
+            font-weight: bold;
+            padding:5px 25px;
+        }
+        .btn-reserva:hover{
+            background-color:#7d1a1e;
+            color:#ffd200;
+        }
+        .form-check-label:hover, .form-check-input:hover{
+            cursor: pointer;
+        }
+        .table{
+            td{
+                vertical-align: middle;
+            }
+        }
+        .total-estimado{
+            background-color:#eaebed;
+            font-size:1.125rem;
+        }
+        .total{
+            font-weight: bold;
+        }
+        .total-obs{
+            font-size:0.75rem;
+            font-weight: normal;
+        }
+        .nbrasileiro{
+            display:none;
+        }
+        .passo-2{
+            display:none;
+        }
+    }
+
+    .page-contato{
+        .tel-big{
+            font-size:1.25rem;
+            color:#7d1a1e;
+        }
+    }
+
+    .page-sobre{
+        .desc{
+            line-height: 1.75rem;
+        }
+    }
+}

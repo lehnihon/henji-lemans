@@ -1,0 +1,9 @@
+@include media-breakpoint-down(md) {
+    .table{
+        display:block;
+        overflow-x: scroll;
+    }
+    .presp{
+        display:none !important;
+    }
+}
